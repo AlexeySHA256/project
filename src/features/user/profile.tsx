@@ -14,7 +14,6 @@ export function UserProfile() {
       {user ?
         <section className="flex flex-col items-center gap-3">
           <h1 className="text-6xl font-black">Hello, {user.name}</h1>
-          <button className="bg-red-500 rounded-lg p-3" onClick={userStore().logout}>Logout</button>
         </section>
         : (
           <form onSubmit={handleSubmit} className="flex gap-5">
