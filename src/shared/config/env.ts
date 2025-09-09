@@ -1,3 +1,4 @@
+
 function parseRequiredEnv() {
   const env = {
     NEXT_PUBLIC_TENDERLY_NETWORK_URL: process.env.NEXT_PUBLIC_TENDERLY_NETWORK_URL!,
@@ -18,3 +19,4 @@ function parseRequiredEnv() {
 }
 
 export const env = parseRequiredEnv()
+
